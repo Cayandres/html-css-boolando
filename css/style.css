@@ -8,7 +8,20 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.container-flex{
+li{
+  list-style: none;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.prop-flex{
   display: flex;
 }
 
@@ -20,4 +33,21 @@ body{
 
 header{
   background-color: #ff6900;
+}
+
+header .main-container{
+  justify-content: space-around;
+
+}
+
+header .logo img{
+  max-height: 40px;
+}
+
+header .prop-flex{
+  align-items: center;
+}
+
+header .prop-flex li a{
+color:white;
 }
