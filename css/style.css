@@ -81,7 +81,7 @@ main .container{
 
 main .card{
   width: 32%;
-  height: 565px;
+  min-width: 250px;
   position: relative;
 }
 
@@ -99,7 +99,7 @@ main .card{
 }
 .product .discount{
   position: absolute;
-  top: 450px;
+  bottom: 10px;
   left: px;
   padding: 5px 7px;
   background-color: red;
@@ -109,7 +109,7 @@ main .card{
 
 .product .sostenibility{
   position: absolute;
-  top: 450px;
+  bottom: 10px;
   left: 16%;
   padding: 5px 7px;
   background-color: green;
@@ -125,8 +125,9 @@ main .card{
   text-decoration: line-through;
 }
 
-.product img{
+.product .second-image{
   position: absolute;
+  display: none;
   top: 0;
   left: 0;
 }
