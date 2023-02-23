@@ -99,8 +99,8 @@ main .card{
 }
 .product .discount{
   position: absolute;
+  min-width: 40px;
   bottom: 10px;
-  left: px;
   padding: 5px 7px;
   background-color: red;
   color: white;
@@ -110,7 +110,8 @@ main .card{
 .product .sostenibility{
   position: absolute;
   bottom: 10px;
-  left: 16%;
+  min-width: 90px;
+  left: 60px;
   padding: 5px 7px;
   background-color: green;
   color: white;
